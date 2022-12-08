@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int intigertype
-	float floattype
-	char charactertype
-	long int longinttype
-	long long int longlonginttype
+	int intigertype;
+	float floattype;
+	char charactertype;
+	long int longinttype;
+	long long int longlonginttype;
 	printf("size of int :%ld bytes\n", sizeof(intigertype));
 	printf("size of float :%ld bytes\n", sizeof(floattype));
 	printf("size of char :%ld bytes\n", sizeof(charactertype));
