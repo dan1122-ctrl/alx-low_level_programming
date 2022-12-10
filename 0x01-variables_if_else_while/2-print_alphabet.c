@@ -3,7 +3,10 @@
 int main(void)
 {
 
-/* lower case alphabet */
+/**
+ * main - header
+ *
+ * Return: return always(0) succes
 
 /* al is for lower case alphabet */
 
