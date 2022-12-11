@@ -7,8 +7,7 @@ int main(void)
  * main - header
  *
  * Return: return always(0) succes
-
-/* al is for lower case alphabet */
+ */
 
 	char al;
 
