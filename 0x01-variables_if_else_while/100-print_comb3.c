@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int f;
+	int f = 0;
 
-	int s;
+	int s = 0;
 
 	for (f = '0'; f <= '9'; f++)
 	{
 		for (s = '0'; s <= '9'; s++)
 		{
-			if (!(f == '9' && s == '8'))
+			if (!((s == f) || (f == s)))
 			{
 				putchar(f);
 				putchar(s);
-				if (!(f == '9' && s == '8'))
+				if (!(s == '9' && f == '8'))
 				{
 					putchar(',');
 					putchar(' ');
