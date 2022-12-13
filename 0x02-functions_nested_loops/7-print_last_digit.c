@@ -2,7 +2,7 @@
 /**
  * print_last_digit - print last digit of a number
  * @n:the out put number
- * return: last digit of a number
+ * Return: the value of the last digit
  */
 int print_last_digit(int n)
 {
