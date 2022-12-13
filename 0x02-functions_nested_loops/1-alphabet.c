@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - checkout the code
+ * print_alphabet - checkout the code
  *
- * Return: always 0
+ * Reprint: turn: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char al = 'a';
 
