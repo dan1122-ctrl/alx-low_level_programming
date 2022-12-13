@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _abs - to print  absolute value of an intiger
  * @i: the intiger to be printed
