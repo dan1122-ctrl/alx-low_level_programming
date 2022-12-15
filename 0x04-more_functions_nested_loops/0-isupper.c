@@ -8,9 +8,7 @@
 
 int _isupper(int c)
 {
-	for (c = 'A'; c <= 'Z'; c++)
-	{
-		if (c is Uppercase)
+	if (c >= 'A' && c <= 'z')
 		{
 			return (1);
 		}
@@ -18,5 +16,4 @@ int _isupper(int c)
 		{
 			return (0);
 		}
-	}
 }
