@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * puts_half - prints half of a string
+ * puts2 -  every other character
  * @str: strig
  * Return: void
  */
-void puts_half(char *str)
+void puts2(char *str)
 {
         int i = 0;
         for (; str[i] != '\0'; i++)
