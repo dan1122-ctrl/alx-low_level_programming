@@ -6,9 +6,10 @@
  */
 void rev_string(char *s)
 {
-	char rs = s[0];
+	char rs = s[0];/* rs - reverse strig*/
 	int c = 0;
 	int i;
+
 	while (s[c] != '\0')
 		c++;
 	for (i = 0; i < c; i++)
