@@ -2,16 +2,17 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @i: intiger
- * Return: always 0
+ * Return: i
  */
 char *string_toupper(char *i)
 {
-	int a;
-	while (i[a] != '\0')
+	int b;
+
+	while (i[b] != '\0')
 	{
-		if (i[a] >= 'a' && i[a] <= 'z')
-			i[a] = i[a] - 32;
-		a++;
+		if (i[b] >= 'a' && i[b] <= 'z')
+			i[b] = i[b] - 32;
+		b++
 	}
 	return (i);
 }
