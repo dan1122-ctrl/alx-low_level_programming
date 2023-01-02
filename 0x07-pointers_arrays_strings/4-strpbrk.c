@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strpbrk - function that searches a string for any of a set of bytes.
+ * _strpbrk -function locates the first occurrence in the string
  * @s: string
  * @accept: the bytes in the string accept
- * return: the bytes in accept, or NULL
+ * Return: the bytes in accept, or NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
