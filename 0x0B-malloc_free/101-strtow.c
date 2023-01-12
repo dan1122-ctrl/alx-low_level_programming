@@ -2,39 +2,26 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * argstostr - main entry
- * @ac: int input
- * @av: double pointer array
- * Return: always 0
+ * count_word - helper function to count the number of words in a string
+ * @s: string to evaluate
+ * Return: number of words
  */
 
 char **strtow(char *str)
 {
-	int i, n, j = 0, l = 0;
+	 int flag, c, w;
 
-	char *str;
-	if (ac == 0 || av == NULL)
-		return (NULL);
-	for (i = 0; i < ac; i++)
-	{
-		for (n = 0; av[i][n]; n++)
-			l++;
-	}
-	l += ac;
-	str = malloc(sizeof(char) * l + 1);
-	if (str == NULL)
-		return (NULL);
-	for (i = 0; i < ac; i++)
-	{
-		for (n = 0; av[i][n]; n++)
-		{
-			str[j] = av[i][n];
-			j++;
-		}
-		if (str[r] == '\0')
-		{
-			str[r++] = '\n';
-		}
-	}
-	 return (str);
+	 flag = 0;
+	 w = 0;
+	 for (c = 0; s[c] != '\0'; c++)
+	 {
+		 if (s[c] == ' ')
+			 flag = 0;
+		 else if (flag == 0)
+		 {
+			 flag = 1;
+			 w++;
+		 }
+	 }
+	 return (w);
 }
